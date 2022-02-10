@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- NOMBRE DE DOCUMENTO -->
+
+    <title>Creador de Targetas</title>
+
+    <!-- LINKS CSS -->
+
+    <link rel="stylesheet" href="../css/universal.css">
+    <link rel="stylesheet" href="../css/home.css">
+
+    <!-- FUENTES DE LETRA -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+
+</head>
+<body >
+    <div class="overlay">
+        <form class="tarjeta">
+            <p class="title">¡Crea tu propia tarjeta!</p>
+            <p class="desc">Introdúce los datos que quieras y dale a generar.</p>
+            <ul>
+                <li>
+                    <div class="input">
+                        <input type="text" name="name" id="name" placeholder="Nombre" autocomplete="off" maxlength="45">
+                    </div>
+                </li>
+                <li>
+                    <div class="input">
+                        <input type="text" name="desc" id="desc" placeholder="Descripción" autocomplete="off" maxlength="45">
+                    </div>
+                </li>
+                <li>
+                    <div class="input">
+                        <input type="text" name="hobby" id="hobby" placeholder="Aficiones" autocomplete="off" maxlength="45">
+                    </div>
+                </li>
+            </ul>
+
+            <button type="button" onclick="window.location.href='./xd.html';" >GENERAR</button>
+            
+        </form>
+        <div class="color_overlay"></div>
+    </div>
+
+    <div class="cursor"></div>
+
+    <script src="../js/cursor.js"></script>
+</body>
+</html>
